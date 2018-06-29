@@ -1,4 +1,5 @@
 import pandas as pd
+from pandas.api.types import is_categorical_dtype
 
 def removeCategoricalOutliers(df, feature, remove_to_threshold):
     if is_categorical_dtype(df[feature]):
