@@ -7,3 +7,5 @@ It can group together
 3. Similar music.
 4. Similar groups of customers.
 
+The K in K-means relates to how many clusters you wnat to split your data into.
+Finding how many clusters there are in a dataset can be more of an art than a science, but there are tools that can help ie 'Elbow Method'
