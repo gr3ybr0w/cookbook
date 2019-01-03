@@ -9,5 +9,3 @@ def distChecker(df, columns):
            pd.DataFrame(data=df[i].var(), index=['var'], columns=[i])]).T
     outdf = pd.concat([outdf, tempdf], axis=0)
   return outdf
-  
-  
