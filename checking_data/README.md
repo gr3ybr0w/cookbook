@@ -1,1 +1,1 @@
-Methods of checning data.
+Methods of checking data.
